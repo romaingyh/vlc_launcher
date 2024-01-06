@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="app.zeniptv.plugins.vlclauncher">
+
+    <queries>
+        <package android:name="org.videolan.vlc" />
+    </queries>
+
+</manifest>

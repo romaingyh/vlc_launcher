@@ -1,0 +1,27 @@
+name: vlc_launcher
+description: "Simple Flutter plugin to launch VLC intent on android and listen for result."
+version: 0.0.1
+#homepage:
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  pigeon: ^15.0.2
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: app.zeniptv.plugins.vlclauncher
+        pluginClass: VlcLauncherPlugin
